@@ -1,0 +1,20 @@
+{
+  "name": "epns",
+  "version": "1.0.0",
+  "description": "Expo Push Notifications Service",
+  "main": "index.js",
+  "author": "Charlie Cheever <ccheever@expo.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-expo": "^4.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.1.2",
+    "sqs": "^2.0.2"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/babel-node ."
+  }
+}
