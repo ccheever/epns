@@ -11,10 +11,16 @@
     "babel-preset-expo": "^4.0.0"
   },
   "dependencies": {
+    "aws-sdk": "^2.243.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "joi": "^13.3.0",
     "node-fetch": "^2.1.2",
     "sqs": "^2.0.2"
   },
   "scripts": {
-    "start": "./node_modules/.bin/babel-node ."
+    "start": "./node_modules/.bin/babel-node .",
+    "endpoint": "./node_modules/.bin/babel-node ./endpoint.js",
+    "worker": "./node_modules/.bin/babel-node ./worker.js"
   }
 }
